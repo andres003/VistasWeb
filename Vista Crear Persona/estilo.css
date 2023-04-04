@@ -37,22 +37,22 @@
     font-size: 25px;
 }
 
-#tituloInicio{
-color: #276E90;
+#tituloInicio {
+    color: #276E90;
 }
 
-#tituloInicio{
+#tituloInicio {
     color: #289e26;
 }
-    
+
 .etiqueta {
-    
+
     font-size: 18px;
     margin-inline: 28rem;
 }
 
-#etiquetaInicio{
-color: #6c6c6a;
+#etiquetaInicio {
+    color: #6c6c6a;
 }
 
 #inicioArriba {
@@ -78,22 +78,30 @@ color: #6c6c6a;
     height: 27rem;
     width: 27rem;
 }
+
 /* ---------------------------
  */
-input{
-    width: 20rem;
-    height:2rem;
+input {
+    width: 15rem;
+    height: 2rem;
     background-color: none;
     border-radius: 10px;
     border: 1px solid #747070;
 }
 
- #displayflex {
+#displayflex {
     padding: 0rem;
     display: flex;
+    max-width: 67em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
-#display{
-    margin: 3rem 3rem;
+
+#display {
+    margin: 2rem 2rem;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -101,8 +109,7 @@ input{
 }
 
 label {
-   
-    font-size: 20px;
+    font-size: 18px;
     line-height: 3.3;
     font-weight: 700;
 }
@@ -119,8 +126,9 @@ label {
 
 #iniciocenter {
     margin: 1rem;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    left: 45%;
+    top: 85%;
 }
 
 #inicio3 {
@@ -138,7 +146,7 @@ input[type="date"] {
     border-radius: 10px;
     color: #5a5959;
     font-size: 16px;
-    width: 20rem;
-    height:2.3rem;
+    width: 15rem;
+    height: 2.3rem;
     text-transform: uppercase;
-  }
+}
