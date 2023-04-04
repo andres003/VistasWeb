@@ -13,33 +13,34 @@
     <div id="inicioTitulo">
         <h1 id="tituloInicio" class="titulopersona">CREAR USUARIO</h1>
     </div>
-    <div id="displayborder">
-        <div id="container_img">
-            <img id="inicio4" src="adoptar.png" alt="inicio4">
-        </div>
-        <div id="display_row">
-            <div id="displaycolum">
-                <label>NOMBRE DE USUARIO:</label>
-                <label>CONTRASEÑA:</label>
-                <label>REPETIR CONTRASEÑA:</label>
-                <label>ROL:</label>
+    <form action="">
+        <div id="displayborder">
+            <div id="container_img">
+                <img id="inicio4" src="adoptar.png" alt="inicio4">
             </div>
-            <div id="displaycolum">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <select id="roles" role="listbox">
-                    <option value="Select">Seleccionar</option>
-                    <option value="cliente">Cliente</option>
-                    <option value="empleado">Empleado</option>
-                </select>
+            <div id="display_row">
+                <div id="displaycolum">
+                    <label>NOMBRE DE USUARIO:</label>
+                    <label>CONTRASEÑA:</label>
+                    <label>REPETIR CONTRASEÑA:</label>
+                    <label>ROL:</label>
+                </div>
+                <div id="displaycolum">
+                    <input type="text" required>
+                    <input type="text" required>
+                    <input type="text" required>
+                    <select id="roles" role="listbox" required>
+                        <option value="Select">Seleccionar</option>
+                        <option value="cliente">Cliente</option>
+                        <option value="empleado">Empleado</option>
+                    </select>
+                </div>
             </div>
+            <div id="boton_registrar">
+                <button class="btn gris">Registrar</button>
+            </div>>
         </div>
-        <div id="boton_registrar">
-            <button class="btn gris">Registrar</button>
-        </div>>
-    </div>
-
+    </form>
 </body>
 
 </html>
