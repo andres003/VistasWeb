@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Usuario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="inicioTitulo">
+        <h1 id="tituloInicio" class="titulopersona">MODIFICAR USUARIO</h1>
+    </div>
+    <form action="">
+        <div id="displayborder">
+            <div id="container_img">
+                <img id="inicio4" src="adoptar.png" alt="inicio4">
+            </div>
+            <div id="display_row">
+                <div id="displaycolum">
+                    <label>NOMBRE DE USUARIO:</label>
+                    <label>CONTRASEÑA:</label>
+                    <label>REPETIR CONTRASEÑA:</label>
+                    <label>ROL:</label>
+                </div>
+                <div id="displaycolum">
+                    <input type="text" required>
+                    <input type="text" required>
+                    <input type="text" required>
+                    <select id="roles" role="listbox">
+                        <option value="Select">Administrador</option>
+                        <option value="cliente">Cliente</option>
+                        <option value="empleado">Empleado</option>
+                    </select>
+                </div>
+            </div>
+            <div id="container_button">
+                <button type="button" onclick="history.back()" class="btn gris">Volver</button>
+                <button class="btn gris">Modificar</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
